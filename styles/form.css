@@ -1,0 +1,113 @@
+/* Apply basic styling to body */
+body {
+  font-family: Almarena;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Wrapper for flexbox layout */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Left section styling */
+.left-section {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.left-section h1 {
+  font-size: 24px;
+  color: #333333;
+  align-items: center;
+}
+
+.left-section footer {
+  margin-top: 20px;
+}
+
+.left-section nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-section nav ul li {
+  margin-bottom: 10px;
+}
+
+/* Right section styling */
+.right-section {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h3 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.right-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section form div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.right-section form div div {
+  width: 48%;
+}
+
+.right-section label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.right-section input,
+.right-section select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.right-section footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.right-section button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.right-section button:hover {
+  background-color: #0056b3;
+}
